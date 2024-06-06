@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# 📝 Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Overview
 
-## Available Scripts
+This is a simple, locally hosted notes app that allows you to add and complete your to-do's on the go. It's designed to be lightweight, fast, and easy to use, making it perfect for managing your daily tasks and staying organized.
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://imgur.com/xedDnuN.png" height="450" title="app screenshot">
+  <img src="https://imgur.com/uhBmyWS.png" height="450" alt.png="app screenshot 2">
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **🌐 HTML**: The structure and content of the app are built using HTML.
+- **🎨 CSS**: The app is styled using CSS to provide an attractive and user-friendly interface.
+- **⚙️ JavaScript**: The app's functionality, such as adding and completing tasks, is implemented using JavaScript.
+- **📦 LocalStorage**: The app uses the browser's LocalStorage to store your tasks locally, ensuring that your data is visible only to you.
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **➕ Add Tasks**: Easily add new tasks to your to-do list by entering them into the input field and pressing enter or clicking the "Add" button.
+- **✅ Complete Tasks**: Mark tasks as completed by clicking the checkbox next to each task. Completed tasks are visually distinguished from pending tasks.
+- **🗑️ Delete Tasks**: Remove tasks from your list by clicking the delete button next to each task.
+- **📱 Responsive Design**: The app is designed to be responsive, ensuring that it looks and works great on both desktop and mobile devices.
+- **💾 Local Storage**: Your tasks are automatically saved to your browser's local storage, so you can close the app and come back to it later without losing your data.
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get started with the Notes App, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/uxzh/notes-app.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navigate to the project directory**:
+   ```bash
+   cd notes-app
+   ```
 
-### `npm run eject`
+3. **Open the `index.html` file in your preferred web browser or visit [this link](https://uxzh-notes.netlify.app)**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+That's it! You can now start adding and managing your tasks using the Notes App.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you'd like to contribute to the Notes App, please follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository, explaining your changes and why they should be merged.
 
-## Learn More
+## 📄 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is open-source and available under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📧 Contact
 
-### Code Splitting
+If you have any questions, suggestions, or feedback, please feel free to reach out to the project maintainer at uxzh@pm.me.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy note-taking! 🚀📝
